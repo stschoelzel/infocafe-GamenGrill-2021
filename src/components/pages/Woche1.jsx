@@ -76,7 +76,7 @@ export const Woche1 = () => {
         sich dabei um einen Hinweis?
         <br />
         <br />
-        <Map src="img/karte_1-1.jpg" />
+        <Map src="img/karte_1-1.jpg" style={{alignSelf:"center", margin:"2rem 0"}} />
         <br />
         <br />
         Die Form kommt euch etwas bekannt vor... Ganz dunkel erinnert ihr euch,
