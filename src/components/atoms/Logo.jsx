@@ -6,7 +6,7 @@ import { theme } from "../../theme";
 const Heading = styled(motion.div)`
   margin-top: 2rem;
   position: relative;
-  font-family: Aclonica;
+  font-family: Permanent Marker;
   opacity: 0.9;
   white-space: nowrap;
   margin-bottom: 4rem;
@@ -25,8 +25,8 @@ const R = styled.div`
 `;
 const Sommer = styled.div`
   color: ${theme.primary};
-  margin-bottom: ${(p) => p.f * -1}rem;
-  font-size: ${(p) => p.f * 4}rem;
+  margin-bottom: ${(p) => p.f * -4}rem;
+  font-size: ${(p) => p.f * 6}rem;
 `;
 const A = styled.div`
   position: absolute;
@@ -36,6 +36,7 @@ const A = styled.div`
 `;
 const Benteue = styled.div`
   font-size: ${(p) => p.f * 5}rem;
+  transform:rotate(-3deg);
 `;
 
 export const Logo = ({ size = 1, responsive = true }) => {
@@ -60,7 +61,7 @@ export const Logo = ({ size = 1, responsive = true }) => {
       animate={{
         textShadow: [
           `0px 0px 15px rgba(${theme.accent[0]}, ${theme.accent[1]}, ${theme.accent[2]}, 0.4)`,
-          `0px 0px 20px rgba(${theme.accent[0]}, ${theme.accent[1]}, ${theme.accent[2]}, 1)`,
+          `0px 0px 20px rgba(${theme.accent[0]}, ${theme.accent[1]}, ${theme.accent[2]}, .6)`,
           `0px 0px 15px rgba(${theme.accent[0]}, ${theme.accent[1]}, ${theme.accent[2]}, 0.4)`,
         ],
       }}

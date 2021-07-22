@@ -9,10 +9,13 @@ const Container = styled.div`
   line-height: 1.5rem;
   display: flex;
   flex-direction: column;
+  background:white;
+  margin:2rem 0;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.1);
   &:first-letter {
     font-size: 3rem;
     line-height: 1;
-    font-family: Aclonica;
+    font-family: Permanent Marker;
     float: left;
     font-weight: bold;
     color: ${theme.primary};
@@ -27,38 +30,32 @@ const Container = styled.div`
 
 const Corner = styled.div`
   position: absolute;
-  height: 6rem;
+  height: 2rem;
   width: 6rem;
-  background-image: url("/img/border.svg");
-`;
-const CornerTL = styled(Corner)`
-  transform: rotate(90deg);
-  top: -0.5rem;
-  left: -0.5rem;
+  top:.1rem;
+  left:-2rem;
+  transform:rotate(-45deg);
+  background-image: url("/img/tape1.png");
 `;
 
-const CornerTR = styled(Corner)`
-  transform: rotate(180deg);
-  top: -0.5rem;
-  left: calc(100% - 5.5rem);
-`;
-const CornerBL = styled(Corner)`
-  transform: rotate(0deg);
-  top: calc(100% - 5.5rem);
-  left: -0.5rem;
-`;
-const CornerBR = styled(Corner)`
-  transform: rotate(-90deg);
-  top: calc(100% - 5.5rem);
-  left: calc(100% - 5.5rem);
+const Corner2 = styled.div`
+  position: absolute;
+  height: 2rem;
+  width: 6rem;
+  bottom:.1rem;
+  right:-1.4rem;
+  transform:rotate(-45deg);
+  background-image: url("/img/tape2.png");
 `;
 export const Story = ({ children, style }) => {
   return (
     <Container style={style}>
-      <CornerBL />
+      {/* <CornerBL />
       <CornerBR />
       <CornerTL />
-      <CornerTR />
+      <CornerTR /> */}
+      <Corner/>
+      <Corner2/>
       {children}
     </Container>
   );

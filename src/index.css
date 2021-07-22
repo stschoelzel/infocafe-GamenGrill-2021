@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Slab&family=Indie+Flower&display=swap");
 @font-face {
   font-family: "Rune Slasher";
   src: url("http://smaragd.infocafe.org/fonts/RuneSlasher.otf")
     format("opentype");
 }
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Permanent+Marker&display=swap");
+
 @import-normalize;
 
 html {
@@ -17,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: url("/img/bg.jpg");
+  background: url("/img/brickwall.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

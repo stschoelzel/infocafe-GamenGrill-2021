@@ -17,9 +17,9 @@ const Container = styled.div`
   box-shadow: 0px 5px 0.5rem 0px rgba(50, 0, 0, 0.6),
     inset 0px 0px 0.5rem 0px rgba(0, 0, 0, 0.6);
 `;
-export const Map = ({ src }) => {
+export const Map = ({ src, style }) => {
   return (
-    <Container>
+    <Container style={style}>
       <div style={{ position: "absolute", height: "100%", width: "100%" }}>
         <PinchZoomPan position="center" zoomButtons={false}>
           <img alt="Karte" src={src} />

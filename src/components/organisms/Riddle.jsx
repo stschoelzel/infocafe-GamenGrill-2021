@@ -12,7 +12,7 @@ const openPose = {
   opacity: 1,
   transition: {
     duration: 1,
-  },
+  }, overflow:"visible"
 };
 
 const closedPose = {

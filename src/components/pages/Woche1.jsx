@@ -12,7 +12,7 @@ export const Woche1 = () => {
       <H1>Woche 1 -1 Wasser</H1>
 
       <img
-        src="img/water.jpg"
+        src="img/water.png"
         style={{
           height: "100%",
           width: "100%",
@@ -138,9 +138,9 @@ export const Woche1 = () => {
       >
         Der Älteste der Fischmenschen schickt euch auf eine kleine Wanderung.
         Dabei bekommt ihr eine Karte mit einer Wegbeschreibung:
-        <br />
-        <Map src="img/karte_1-2.jpg" />
-        <br />
+     
+        <Map src="img/karte_1-2.jpg" style={{alignSelf:"center", margin:"2rem 0"}} />
+  
         Ihr startet am West Clubhaus im Südwesten. Von dort wandert ihr nach
         Süden bis zur 804. Straße. Der Straße folgt ihr nach Osten, bis ihr das
         Tal der Sonne erreicht. Vom Tal der Sonne wandert ihr Richtung
