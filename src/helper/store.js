@@ -9,7 +9,7 @@ import { generateDefaultState, config } from "../config";
 // solveRiddle(chapter, riddle) - Löst ein Rätsle und speichert es local ab.
 // getRiddleState(chapter, riddle) - Liefert "SOLVED", "ACTIVE" oder "DISABLED"
 // getChapterState(chapter) - Liefert "SOLVED", "ACTIVE" oder "DISABLED"
-// solveChapter(chapter) - Löst ein komplettes kapitel
+// solveChapter(chapter) - Löst ein komplettes Woche
 
 export const StoreContext = React.createContext({});
 

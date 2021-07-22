@@ -65,10 +65,10 @@ export const Logo = ({ size = 1, responsive = true }) => {
         ],
       }}
     >
-      <Sommer f={f}>Sommer</Sommer>
-      <A f={f}>A</A>
-      <Benteue f={f}>benteue</Benteue>
-      <R f={f}>r</R>
+      <Sommer f={f}>2021</Sommer>
+      <Benteue f={f}>Game'n'Grill</Benteue> 
+  
+      
     </Heading>
   );
 };

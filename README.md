@@ -41,5 +41,5 @@ https://bradfrost.com/blog/post/atomic-web-design/ <br/><br/>
 
 In der `config.js` steht die aktuelle Konfiguration des Projekts.
 `const config` gibt an, welche config genutzt wird.
-Das KonfigurationsObject beschreibt die Rätsel und Kapitel.
-Der `unlocked`parameter gibt an, welche Kapitel schon freigeschaltet sind. Wenn man zB nächste Woche das nächste Rätsel freigibt, wird dieser um 1 erhöht.
+Das KonfigurationsObject beschreibt die Rätsel und Woche.
+Der `unlocked`parameter gibt an, welche Woche schon freigeschaltet sind. Wenn man zB nächste Woche das nächste Rätsel freigibt, wird dieser um 1 erhöht.

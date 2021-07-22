@@ -18,11 +18,11 @@ export const Home = () => {
       <Logo />
 
       <Story>
-        Wenn du diese Nachricht liest hast du bewiesen, dass du uns helfen
-        kannst. Irgendetwas stimmt nicht im Land und nur du kannst uns helfen!
-        Wir werden am 13.7. den ersten Hinweis geben können damit du
-        herausfinden kannst was passiert ist. Das hier ist übrigens ein
-        magischer Brief der seinen Inhalt ändern kann…
+        Die Sommerferien sind da und das diesjährige Game’n’Grill steht wieder
+        vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß beginnt!
+        <br />
+        <br />
+        Seid gespannt, am 26.07.2021 geht’s hier los!
       </Story>
 
       <Divider />
@@ -30,13 +30,13 @@ export const Home = () => {
 
       <Divider />
       <H3>Allgemeine Infos</H3>
-      <p style={{ marginBottom: "3rem" }}>
+      <p style={{ marginBottom: "D" }}>
         Bei Rückfragen könnt ihr eine Email an{" "}
         <a
           style={{ textDecoration: "none", color: theme.primary, opactiy: 0.5 }}
-          href="mailto:smaragd@infocafe.org"
+          href="mailto:gng21@infocafe.org"
         >
-          smaragd@infocafe.org
+          GNG21@infocafe.org
         </a>{" "}
         schreiben
       </p>
@@ -45,7 +45,7 @@ export const Home = () => {
       <DasBrauchtIhrIcons />
       <p>
         Solltet ihr keine mobile Internetverbindung haben, könnt ihr das
-        öffentliche WLAN der Stadt Neu-Isenburg nutzen, zB am Marktplatz, dem
+        öffentliche wLan der Stadt Neu-Isenburg nutzen, zB am Marktplatz, dem
         Sportpark oder der Bibliothek.
       </p>
       <p>

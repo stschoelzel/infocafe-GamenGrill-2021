@@ -11,10 +11,10 @@ export const ConfiguredTableOfContents = ({ unlocked = Infinity }) => {
     const hidden = i >= unlocked;
     const state = hidden ? "DISABLED" : getChapterState(i + 1);
     content.push({
-      label: !hidden ? `Kapitel ${i + 1}` : "????",
+      label: !hidden ? `Woche ${i + 1}` : "????",
       disabled: state === "DISABLED",
       solved: state === "SOLVED",
-      to: `kapitel${i + 1}`,
+      to: `Woche${i + 1}`,
     });
   });
 

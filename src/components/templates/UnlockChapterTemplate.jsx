@@ -16,11 +16,11 @@ export const UnlockChapterTemplate = ({ chapter, date }) => {
     <Parchment>
       <H1>Glückwunsch!</H1>
       <Story>
-        Ihr habt das {chapter}. Kapitel des Abenteuers abgeschlossen! Gönnt euch
+        Ihr habt das {chapter}. Woche des Abenteuers abgeschlossen! Gönnt euch
         eine wohlverdiente Rast, bald geht es weiter.
         <br />
         <br />
-        Das nächste Kapitel offenbart sich euch am
+        Das nächste Woche offenbart sich euch am
         <br />
         <br />
         <H4>{date}</H4>

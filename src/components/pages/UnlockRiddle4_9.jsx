@@ -5,7 +5,7 @@ import { Parchment } from "../atoms/Parchment";
 import { H4 } from "../atoms/H4";
 import { Story } from "../molecules/Story";
 import { StoreContext } from "../../helper/store";
-import { Kapitel4 } from "./Kapitel4";
+import { Woche4 } from "./Woche4";
 
 export const UnlockRiddle4_9 = ({}) => {
   const { id } = useParams();
@@ -31,7 +31,7 @@ export const UnlockRiddle4_9 = ({}) => {
       if (idParsed === 6) {
         solveRiddle(4, 9);
       }
-      // history.push("/kapitel4");
+      // history.push("/Woche4");
     }
   }, [id]);
 
@@ -51,6 +51,6 @@ export const UnlockRiddle4_9 = ({}) => {
       </Parchment>
     );
   } else {
-    return <Kapitel4 />;
+    return <Woche4 />;
   }
 };
