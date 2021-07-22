@@ -28,7 +28,7 @@ const Line = styled.div`
 export const TableOfContents = ({ content }) => {
   return (
     <Container>
-      <H4>Kapitel</H4>
+      <H4>Wochen</H4>
       {content.map((c) => {
         return (
           <Row
