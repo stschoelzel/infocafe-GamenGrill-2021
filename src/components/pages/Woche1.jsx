@@ -76,7 +76,7 @@ export const Woche1 = () => {
         sich dabei um einen Hinweis?
         <br />
         <br />
-        <Map src="img/karte_1-1.jpg" style={{alignSelf:"center", margin:"2rem 0"}} />
+        <Map src="img/1_1.jpg" style={{alignSelf:"center", margin:"2rem 0"}} />
         <br />
         <br />
         Die Form kommt euch etwas bekannt vor... Ganz dunkel erinnert ihr euch,
@@ -85,7 +85,13 @@ export const Woche1 = () => {
         euch auch nicht ganz unbekannt... Vielleicht hilft ja ein Blick auf eine
         Karte?
       </Riddle>
-      <Riddle index={2} chapter={1} prolog>
+      <Riddle
+        index={2}
+        chapter={1}
+        heading="Eine Siedlung voller Fische"
+        question="Wo erwartet euch der Älteste der Fischmenschen?"
+        answer="Atlantis" >
+
         Nachdem ihr vor der Steintafel das richtige Lösungswort ausgesprochen
         habt, beginnt ein Teil des Reliefs zu leuchten. Neugierig berührt ihr
         die leuchtende Stelle und plötzlich blitzt ein gleißendes Licht auf,
@@ -128,18 +134,15 @@ export const Woche1 = () => {
         die Insel steht momentan unter einem schlechten Omen. Ich muss
         sichergehen können, dass die Siedlung euch vertrauen kann.” Ihr willigt
         darauf ein.
-      </Riddle>
-      <Riddle
-        index={2}
-        chapter={1}
-        heading="Eine Siedlung voller Fische"
-        question="Wo erwartet euch der Älteste der Fischmenschen?"
-        answer="Atlantis"
-      >
+        <br />
+        <Divider />
+        <br />
+  
+
         Der Älteste der Fischmenschen schickt euch auf eine kleine Wanderung.
         Dabei bekommt ihr eine Karte mit einer Wegbeschreibung:
      
-        <Map src="img/karte_1-2.jpg" style={{alignSelf:"center", margin:"2rem 0"}} />
+        <Map src="img/1_2.png" style={{alignSelf:"center", margin:"2rem 0"}} />
   
         Ihr startet am West Clubhaus im Südwesten. Von dort wandert ihr nach
         Süden bis zur 804. Straße. Der Straße folgt ihr nach Osten, bis ihr das
@@ -155,47 +158,58 @@ export const Woche1 = () => {
       <Riddle
         index={3}
         chapter={1}
-        heading="Tempel des Konsums"
-        question="Wie lautet das Lösungswort?"
-        answer="Buecherei"
-      >
-        Ihr wendet euch von den die Geistern der Vergangenheit ab und verlasst
-        den Friedhof Richtung Norden. Schnell habt ihr heraus, dass es sich bei
-        der Lösung um die Koordinaten eines Ortes in unmittelbarer Nähe handelt.
-        Ihr wart schon öfter dort, am Tempel des Konsums. Ob dies der richtige
-        Ort sein kann, um neues Wissen zu erlangen? Ihr wundert euch, doch
-        hinterfragt vorerst nicht, was die Ältesten euch aufgetragen haben. Je
-        näher ihr der Innenstadt kommt, desto belebter werden die Straßen.
-        Magische Klapperkisten rollen über den Asphalt und weisen euch den Weg.
-        Ihr merkt, dass die Giftwolke hier wieder dichter wird, umso näher die
-        Häuser aneinander stehen und umso mehr die Menschen in Kontakt
-        miteinander sind. Zur Sicherheit setzt auch ihr eure Masken auf und
-        haltet etwas Abstand, ehe ihr den Tempel des Konsums betretet. Kaum
-        haben sich die gläsernen Türen hinter euch geschlossen bildet sich in
-        euren Köpfen ein neues Rätsel – der Schlüssel zu verborgenem Wissen?
+        heading="Der versunkene Tempel"
+        question="Was für ein kleines Wesen versteckt sich zwischen den ganzen Haien?"
+        answer="Seepferdchen"
+      >      Nach einer langen Wanderung habt ihr es geschafft und findet endlich den Ältesten der Fischmenschen am Ziel: “Gut gemacht! Ich danke euch vielmals, dass ihr auf meinen Test eingegangen seid und diesen Weg auf euch genommen habt. Ich muss gestehen, dass ich euch doch schon von Anfang an vertraut habe. Ich konnte eure reinen Herzen ganz klar spüren und wusste direkt um die Lage Bescheid. Tut mir Leid, dass ich nicht ganz ehrlich zu euch war. Ich habe den Test als Anlass genommen, um euch zu dieser Stätte hierher zu führen. Aber am besten zeige ich euch, warum wir uns hier zusammengefunden haben.”
+      <br />
+        <br />
+Der Älteste bittet euch ihm zu folgen. Ihr betretet eine Ruine mit verschiedenen Wandmalereien. Der Älteste spricht zu euch: “Lasst mich euch die Legende dieser Insel erzählen.”
+<br />
+        <br />
+Vor langer Zeit lebten die Bewohnenden der Insel in Harmonie. Doch dann suchte eine Böse Antike Macht die Insel heim und wollte sie in Finsternis und Chaos stürzen. Um die Insel vor dem Untergang zu bewahren, wurden vier Artefakte von den Göttern des Lichts auf die Insel herabgesandt. Vier heilige Gegenstände mit der Macht des Wassers, der Erde, des Feuers und der Luft. Die Böse Antike Macht wurde mit Hilfe dieser vier heiligen Artefakte bekämpft und in eine andere Dimension verbannt. Seitdem werden die vier Artefakte an verschiedenen Orten auf der Insel aufbewahrt, um das Gleichgewicht der Insel aufrecht erhalten und das dortige Leben vor einer erneuten Bedrohung der Bösen Antiken Macht zu beschützen.
+<br />
+        <br />
+“Seit geraumer Zeit wird unsere Insel von mehreren Naturphänomenen heimgesucht. Das Wasser hört auf zu fließen, die Bäume verlieren langsam ihre Lebenskraft, ein Vulkan droht auszubrechen und der Wind hört auf zu wehen… Ich befürchte, dass die vier heiligen Artefakte allmählich ihre Kraft verlieren, das Gleichgewicht und somit das harmonische Leben auf der Insel aufrecht zu halten.”, schildert euch der Älteste.
+<br />
+        <br />
+Die Inselbewohnenden sind besorgt, dass die Böse Antike Macht bald wiederkehrt und die Insel erneut in den Abgrund reißen wird. Jedoch erzählt euch der Älteste auch von einer Prophezeiung, die nur den Wenigsten bekannt ist: “Einer Sage zufolge, sollten die vier Artefakte langsam ihre Macht verlieren, werden Reisende mit reinen Herzen aus einer anderen Welt durch die Götter des Lichts auf die Insel gesandt, um die Macht wiederherzustellen. Ich denke, dass es sich dabei um euch handeln muss. Ihr seid die Auserwählten, die die Insel vor einem erneuten Unheil bewahren. Deshalb bitte ich euch, im Namen der Fischmenschen und allen anderen Bewohnenden der Insel, helft uns dabei, unsere geliebte Insel vor dem Untergang zu retten!”
+<br />
+        <br />
+Ihr erklärt euch bereit, zu den vier Artefakten zu reisen und den hilfesuchenden Inselbewohnenden dabei zu helfen, die Kräfte der Artefakte wiederherzustellen. Der Älteste freut sich zutiefst über eure Entscheidung: “Vielen vielen Dank! Es gibt wieder Hoffnung für unsere Insel! Das Artefakt des Wassers ist in einem versunkenen Tempel innerhalb des Sees versteckt, wo sich unsere Siedlung befindet. Wir werden euch mit allen Mitteln auf eure Reise dorthin unterstützen.”
+<br />
+        <br />
+Zurück in der Siedlung begebt ihr euch mit den Fischmenschen ins See. Auf deren Rücken taucht ihr ins tiefblaue Wasser hinab. Auf wundersame Weise bildet sich eine Luftblase um euren Köpfen, sodass ihr Unterwasser atmen könnt. Gemeinsam seid ihr auf der Suche nach dem Versunkenen Tempel, wo sich das erste Artefakt versteckt.
+
+<br />
         <Divider />
-        Willkommen im Tempel des Konsums!
         <br />
-        <br />
-        <H4 style={{ fontSize: "1rem" }}>
-          40 - 99 - 10 - 107 - 3 - 133 - 80 - 66 - 138
-        </H4>
-        Hinter diesen Ziffern verbergen sich Kaufleute und Ladengeschäfte. Die
-        Initialen der Geschäftsnamen erscheinen euch auffällig…
+      Um zu dem Versunkenen Tempel zu gelangen, schwimmt ihr gemeinsam mit den Fischmenschen durch einen Schwarm Haie. Die Haie tun euch nichts, denn sie erkennen die Fischmenschen und sind euch freundlich gesonnen. Aber leider können sie euch selber nicht sagen, wo sich der Versunkene Tempel mit dem Artefakt genau befindet. Nur ein kleines Wesen, was sich zwischen den Haien versteckt, kann euch den Weg dorthin zeigen.
+        <Map src="img/1_3.png" style={{alignSelf:"center", margin:"2rem 0"}} />
       </Riddle>
-      <Riddle index={4} chapter={1} heading="Das Reich der Bücher">
-        Ihr seid euch sicher: Um das Reich der Bücher zu betreten, müsst ihr den
-        Tempel des Konsums wieder verlassen. Der Ort, zu dem es euch zieht, sind
-        die Hallen des Wissens in unmittelbarer Nähe. Wissen gibt es hier nicht
-        zu kaufen, sondern wird nur an ausgewählte Mitglieder verliehen. Vor Ort
-        müsst ihr den Schlüssel suchen, der euch den Zugang zur nächsten Woche
-        ermöglicht. Dafür müsst ihr die Hallen des Wissens nicht betreten, denn
-        ihr könnt es von außen finden. Jedoch kann ein Besuch in den Hallen des
-        Wissen stets sehr lehrreich sein.
+      <Riddle index={4} chapter={1} heading="Das Wasser-Relikt"
+      question="Lösungswort gibt es gegen Vorlage der Lösung im Infocafe (Im Club oder via Mail)"
+      answer="Aqua">
+      Zwischen den Haien entdeckt ihr ein kleines Seepferdchen. Daraufhin schwimmt es plötzlich weg, ihr versucht es hinterher zu jagen. Nachdem ihr das kleine flinke Seepferdchen eine Weile lang verfolgt habt, seht ihr im Meeresgrund den Versunkenen Tempel. Gemeinsam mit den Fischmenschen betretet ihr den Tempel, welches überraschenderweise innen trocken und mit Luft befüllt ist, und erkundet die verwinkelten Gänge. Hellblau leuchtende Kristalle zieren die Wände und leuchten euch den Weg.
+      <br />
         <br />
+Nach einiger Zeit findet ihr euch vor einem riesigen steinernen Tor. Befindet sich das Artefakt des Wassers dahinter? Zusammen mit den Fischmenschen drückt ihr gegen das Tor und versucht es aufzukriegen. Stück für Stück bewegt es sich, bis ihr es schafft, es komplett zu öffnen.
+<br />
         <br />
-        Wenn ihr die Smaragd-Rune gefunden habt analysiert sie mit eurem
-        Zaubergerät, um die Aufgabe zu lösen.
+Ihr betretet den Raum und findet vor euch ein Altar. Darauf befindet sich ein Stab, welches in einem schwachen blauen Leuchten umhüllt ist. Das muss das heilige Artefakt des Wassers sein! Ihr hab’s tatsächlich gefunden! Doch ihr fragt euch, wie ihr seine Kraft wiederherstellen könnt. Die Fischmenschen sind leider auch überfragt und können euch nicht weiterhelfen. Ihr probiert anschließend den Stab anzufassen. Plötzlich blitzt ein hellblaues Licht auf, welches der ganzen Raum umgibt. Vor eurem geistigen Auge seht ihr eine Aufgabe, die es zu lösen gilt. 
+<br />
+<Divider />
+Damit das Artefakt des Wasser wieder zu seiner ursprünglichen Kraft kommt, müsst ihr folgendes Rätsel lösen:
+<br />
+        <br />
+Ihr seht vor euch mehrere Wasserstoffatome (H). Eure Aufgabe liegt darin, jeweils zwei Wasserstoffatome (H) mit einem Sauerstoffatom (O) zu verbinden (H-O-H). Dabei dürfen die Sauerstoffatome (O) auf dem Feld nicht benachbart sein, auch nicht diagonal. Zudem lassen sich die Wasserstoffatome (H) nur senkrecht oder waagerecht mit einem Sauerstoffatom (O) verbinden.
+<br />
+        <br />
+Insgesamt sind 10 Sauerstoffatome (O) zu setzen, um das Rätsel zu lösen. Auf welchen Feldern (A1, A2, …) müssen sie sich alle befinden? Schickt uns euren Lösungsvorschlag (E-Mail) und bei richtiger Antwort bekommt ihr von uns ein Lösungswort, um euer Abenteuer fortzuführen.
+
+        <br />
+        <Map src="img/1_4.png" style={{alignSelf:"center", margin:"2rem 0"}} />
+
       </Riddle>
     </Parchment>
   );
