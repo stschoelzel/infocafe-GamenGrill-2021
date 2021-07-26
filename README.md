@@ -21,7 +21,7 @@ Die fertige App landet gebundlet im `build` folder.<br />
 
 #### Struktur
 
-Im root haben wir 2 Ordner<br/>
+npx
 
 - public
 - src
