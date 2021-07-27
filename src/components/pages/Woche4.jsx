@@ -29,9 +29,9 @@ export const Woche4 = () => {
   const riddle4_9 = getSubRiddleState(4, 9);
   return (
     <Parchment>
-      <H1>Woche 4</H1>
+      <H1>Woche 4 - Luft</H1>
 
-      <Map src="img/karte_4-1.jpg" />
+      <Map src="img/air.png" />
       <Riddle index={1} chapter={4} prolog>
         Nachdem ihr tapferen Heldinnen und Helden nun endlich das Wasser des
         Lebens gefunden habt, steht ihr wartend vor dem alten Baum und hofft da

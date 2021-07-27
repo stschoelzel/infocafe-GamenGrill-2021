@@ -11,9 +11,9 @@ import { SepiaImg } from "../atoms/SepiaImg";
 export const Woche2 = () => {
   return (
     <Parchment>
-      <H1>Woche 2</H1>
+      <H1>Woche 2 - Feuer </H1>
 
-      <Map src="img/karte_2-1.jpg" />
+      <Map src="img/fire.png" />
       <Riddle
         index={1}
         chapter={2}
@@ -150,7 +150,13 @@ export const Woche2 = () => {
           die Hälfte der Kugeln wird Euch die Lösung verraten.
         </Bilderratsel>
       </Riddle>
-      <Riddle index={4} chapter={2} heading="How to tame a dragon">
+      <Riddle
+        index={4}
+        chapter={2}
+        heading="How to tame a dragon"
+        question="Wie viele Smaragde liegen auf dem letzten weißen Feld?"
+        answer="0"
+      >
         <img
           src="img/2_4_map.png"
           style={{ width: "100%", opacity: 0.8, marginBottom: "3rem" }}

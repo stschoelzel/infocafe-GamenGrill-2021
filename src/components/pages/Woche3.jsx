@@ -10,9 +10,9 @@ import { Schild } from "../atoms/Schild";
 export const Woche3 = () => {
   return (
     <Parchment>
-      <H1>Woche 3</H1>
+      <H1>Woche 3 - Erde</H1>
 
-      <Map src="img/karte_3-1.jpg" />
+      <Map src="img/earth.png" />
       <Riddle index={1} chapter={3} prolog>
         <img
           src="img/schachmatt.png"

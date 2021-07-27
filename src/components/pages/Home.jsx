@@ -22,7 +22,11 @@ export const Home = () => {
         vor der Tür: Ein neues Abenteuer voller Rätsel, Spiel und Spaß beginnt!
         <br />
         <br />
-        Seid gespannt, am 26.07.2021 geht’s hier los!
+        Die Spiele sind eröffnet!
+        <br />
+        <br />
+        Was es genau in etwa 4 Wochen gibt wenn alles gelöst ist, wohin die
+        reise führt und den ganzen Rest... das wird sich zeigen ;)
       </Story>
 
       <Divider />

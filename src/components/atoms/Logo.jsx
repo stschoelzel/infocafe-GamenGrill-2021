@@ -28,6 +28,11 @@ const Sommer = styled.div`
   margin-bottom: ${(p) => p.f * -4}rem;
   font-size: ${(p) => p.f * 6}rem;
 `;
+const Sommer2 = styled.div`
+  color: ${theme.primary};
+  margin-bottom: ${(p) => p.f * -4}rem;
+  font-size: ${(p) => p.f * 8}rem;
+`;
 const A = styled.div`
   position: absolute;
   top: ${(p) => p.f * 1}rem;
@@ -36,7 +41,7 @@ const A = styled.div`
 `;
 const Benteue = styled.div`
   font-size: ${(p) => p.f * 5}rem;
-  transform:rotate(-3deg);
+  transform: rotate(-3deg);
 `;
 
 export const Logo = ({ size = 1, responsive = true }) => {
@@ -67,9 +72,8 @@ export const Logo = ({ size = 1, responsive = true }) => {
       }}
     >
       <Sommer f={f}>2021</Sommer>
-      <Benteue f={f}>Game'n'Grill</Benteue> 
-  
-      
+      <Benteue f={f}>Game'n'Grill</Benteue>
+      <Sommer2 f={f}>ELEMENTS</Sommer2>
     </Heading>
   );
 };
