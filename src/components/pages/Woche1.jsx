@@ -5,12 +5,14 @@ import { Map } from "../molecules/Map";
 import { Riddle } from "../organisms/Riddle";
 import { Divider } from "../atoms/Divider";
 import { H4 } from "../atoms/H4";
+import { Link } from "react-router-dom";
+import { BackToHome } from "../atoms/BackToHome";
+import styled from "styled-components";
 
 export const Woche1 = () => {
   return (
     <Parchment>
       <H1>Woche 1 - Wasser</H1>
-
       <img
         src="img/water.png"
         style={{
@@ -300,7 +302,9 @@ export const Woche1 = () => {
           style={{ alignSelf: "center", margin: "2rem 0" }}
         />
       </Riddle>
-      <button onclick="">Zurück zur Hauptseite</button>
+      <BackToHome>
+        <Link to="/">Zurück zur Hauptseite</Link>
+      </BackToHome>
     </Parchment>
   );
 };

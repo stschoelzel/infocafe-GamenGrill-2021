@@ -11,6 +11,8 @@ import { Seal } from "../atoms/Seal";
 import styled from "styled-components";
 import { theme } from "../../theme";
 import { StoreContext } from "../../helper/store";
+import { Link } from "react-router-dom";
+import { BackToHome } from "../atoms/BackToHome";
 
 const Rock = styled.div`
   background-image: url("img/rock.jpg");
@@ -423,6 +425,9 @@ export const Woche4 = () => {
           <H4>Zur Preisverleihung</H4>
         </a>
       </Riddle>
+      <BackToHome>
+        <Link to="/">Zurück zur Hauptseite</Link>
+      </BackToHome>
     </Parchment>
   );
 };

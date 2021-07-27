@@ -7,6 +7,8 @@ import { Divider } from "../atoms/Divider";
 import { H4 } from "../atoms/H4";
 import { Smaragd } from "../atoms/Smaragd";
 import { SepiaImg } from "../atoms/SepiaImg";
+import { Link } from "react-router-dom";
+import { BackToHome } from "../atoms/BackToHome";
 
 export const Woche2 = () => {
   return (
@@ -205,6 +207,9 @@ export const Woche2 = () => {
         <H4>27.07.2020</H4>
         Kehrt dann zum letzten Ort eures Abenteuers zurück um fortzufahren!
       </Riddle>
+      <BackToHome>
+        <Link to="/">Zurück zur Hauptseite</Link>
+      </BackToHome>
     </Parchment>
   );
 };
