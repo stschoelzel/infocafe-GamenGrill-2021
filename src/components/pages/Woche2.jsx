@@ -205,7 +205,6 @@ export const Woche2 = () => {
         <br />
         <br />
         <H4>27.07.2020</H4>
-        Kehrt dann zum letzten Ort eures Abenteuers zurück um fortzufahren!
       </Riddle>
       <BackToHome>
         <Link to="/">Zurück zur Hauptseite</Link>

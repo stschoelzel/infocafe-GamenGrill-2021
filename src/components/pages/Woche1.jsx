@@ -302,6 +302,34 @@ export const Woche1 = () => {
           style={{ alignSelf: "center", margin: "2rem 0" }}
         />
       </Riddle>
+      <Riddle chapter={1} index={5} heading="Schachmatt" epilog>
+        Ihr habt es geschafft! Das Artefakt des Wasser hat seine voll Kraft
+        wiedererlangt. Der Stab beginnt in einem tiefblauen Schein zu leuchten.
+        An den Wänden des Raums beginnen Wasserfälle zu fließen und vom Boden
+        schießt Wasser in die Höhe wie Springbrunnen. Die Fischmenschen jubeln
+        zu eurem Erfolg. Gemeinsam verlasst ihr den Versunkenen Tempel und macht
+        euch wieder auf dem Weg zurück zur Siedlung. Dort angekommen berichtet
+        ihr dem Ältesten von eurem Abenteuer. “Ich danke euch von tiefsten
+        Herzen, Reisende! Das Artefakt des Wassers erstrahlt wieder in voller
+        Glanz.”
+        <br />
+        <br />
+        Doch eure Reise ist noch nicht zu Ende. Es warten drei weitere Artefakte
+        auf euch, deren Kraft wiederhergestellt werden müssen. Der Älteste
+        erklärt euch, wo ihr als nächstes hin müsst: “Folgt dem Fluss Richtung
+        Westen. Er wird euch zu einem Wald führen, in der sich das Dorf der
+        Elfen befindet. Die Elfen werden euch sicherlich weiterhelfen können,
+        wie ihr zum Artefakt der Erde gelangen könnt.”
+        <br />
+        <br />
+        So verabschiedet ihr euch von den Fischmenschen und macht euch auf dem
+        Weg zu eurem nächsten Ziel. Fortsetzung folgt ...
+        <br />
+        <br /> Das nächste Woche offenbart sich euch am
+        <br />
+        <br />
+        <H4>02.08.2020</H4>
+      </Riddle>
       <BackToHome>
         <Link to="/">Zurück zur Hauptseite</Link>
       </BackToHome>
