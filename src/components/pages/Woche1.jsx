@@ -106,7 +106,7 @@ export const Woche1 = () => {
         Ihr blickt um euch herum und findet euch auf einer wunderschönen Bucht
         wieder, umringt von majestätischen Hügeln. Das Meer schimmert so blau
         wie der Himmel und die Sonne strahlt wärmend auf euch herab. Anscheinend
-        seit ihr auf einer riesengroßen Insel gelandet. Ihr erkundet die Gegend
+        seid ihr auf einer riesengroßen Insel gelandet. Ihr erkundet die Gegend
         und entdeckt einen Weg, der über einen Hügel in die Insel rein führt.
         Ihr folgt diesem Weg in der Hoffnung, jemanden zu finden, der euch
         helfen kann.
