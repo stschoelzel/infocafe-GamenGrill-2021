@@ -248,7 +248,7 @@ export const Woche1 = () => {
       <Riddle
         index={4}
         chapter={1}
-        heading="Das Wasser-Relikt"
+        heading="Das Artefakt des Wassers"
         question="Lösungswort gibt es gegen Vorlage der Lösung im Infocafe (Im Club oder via Mail)"
         answer="Aqua"
       >
@@ -302,7 +302,7 @@ export const Woche1 = () => {
           style={{ alignSelf: "center", margin: "2rem 0" }}
         />
       </Riddle>
-      <Riddle chapter={1} index={5} heading="Schachmatt" epilog>
+      <Riddle chapter={1} index={5} epilog>
         Ihr habt es geschafft! Das Artefakt des Wasser hat seine voll Kraft
         wiedererlangt. Der Stab beginnt in einem tiefblauen Schein zu leuchten.
         An den Wänden des Raums beginnen Wasserfälle zu fließen und vom Boden
@@ -328,7 +328,7 @@ export const Woche1 = () => {
         <br /> Das nächste Woche offenbart sich euch am
         <br />
         <br />
-        <H4>02.08.2020</H4>
+        <H4>02.08.2021</H4>
       </Riddle>
       <BackToHome>
         <Link to="/">Zurück zur Hauptseite</Link>

@@ -13,198 +13,228 @@ import { BackToHome } from "../atoms/BackToHome";
 export const Woche2 = () => {
   return (
     <Parchment>
-      <H1>Woche 2 - Feuer </H1>
+      <H1>Woche 2 - Erde </H1>
 
-      <Map src="img/fire.png" />
+      <img
+        src="img/earth.png"
+        style={{
+          height: "100%",
+          width: "100%",
+        }}
+      />
       <Riddle
         index={1}
         chapter={2}
-        heading="Smaragd"
-        question="Was ist Smaragd?"
-        answer="Drache"
+        heading="Durch ein waldiges Labyrinth"
+        question="Wie lautet der Zahlencode?"
+        answer="2051"
       >
-        <Smaragd style={{ alignSelf: "center", marginBottom: "3rem" }} />
-        Ein uraltes Übel wurde wieder erweckt.
-        <br />
-        Das letzte Mal wurde sie im 14 Jahrhundert irrtümlicherweise als
-        schwarzer Tod gefürchtet und vergiftete ganze Dörfer mit ihrer
-        verpesteten Luft. Das versehentliche Debakel in den Katakomben des
-        Infocafes beendete ihren 300 hundert jährigen Schlummer tief unter der
-        Erde. Giftige Schwaden wabern durch die Straße und halten die Menschen
-        zu Hause gefangen. <br />
-        Auf leisen Schwingen durchschneidet sie den nächtlichen Himmel und zieht
-        unheilvolle Wolken hinter sich her. Ihr Odem verbreitet sich in
-        Windeseile und befällt diejenigen, die ungeschützt ihre Heimstadt
-        verlassen. Sie macht krank und diese Eigenschaft spiegelt sich in ihrem
-        schrecklichen Antlitz wieder. Grüne, smaragdgrüne Schuppen bedecken den
-        echsenähnlichen, gigantischen Körper, der Bauch bedeckt von magischem
-        Flimmern. Ihre Krallen triefen vor Gift, ihre Nüstern beben vor
-        unterdrücktem Zorn, ihre tiefgrünen, fast schwarzen Augen funkeln vor
-        Hass und können einen vor Angst erstarren lassen. Sie ist das Land, sie
-        ist der Tod!
+        <img
+          src="img/2_1.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
+        Beim genaueren Hinschauen bemerkt ihr ein Schema. Die Wegweiser müssen
+        nämlich auf einer bestimmten Art und Weise gelesen werden. Mit einem
+        vierstelligen Zahlencode kommt ihr dann aus diesem waldigen Labyrinth
+        heraus.
       </Riddle>
       <Riddle
         index={2}
         chapter={2}
-        heading="Die Heiler"
-        question="Wie heißt der Laden?"
-        answer="Goethe"
-        template="_ Apotheke"
+        heading="Das Dorf der Elfen"
+        question="Wie lautet wohl das Lösungswort?"
+        answer="EIBE"
       >
-        Ihr tapferen Heldinnen und Helden,
+        Endlich aus dem Labyrinth rausgekommen, findet ihr euch in einer
+        riesigen Waldlichtung wieder, inmitten sich ein gigantischer Baum in den
+        Himmel erstreckt. Seine gewaltigen und massiven Wurzeln ragen ringsum
+        aus dem Erdboden. Das Licht der Sonne scheint durch seine majestätische
+        Baumkrone, sodass ein Wechselspiel aus Licht und Schatten auf den Boden
+        geworfen wird. Den kleinen Holzhütten und Pilz-Häusern zu urteilen,
+        welche um und teilweise auf dem Baum stehen, scheint dieser Ort hier
+        bewohnt zu sein. Ihr schließt daraus, dass sich hier das Dorf der Elfen
+        befinden muss. Erleichtert schaut ihr euch in der Gegend um und hofft,
+        auf die Elfen anzutreffen. Doch weit und breit ist niemand zu sehen.
+        Auch als ihr versucht, an den Türen zu klopfen, scheint niemand da zu
+        sein. Ihr wundert euch, wo alle bloß stecken. Sind alle momentan
+        unterwegs oder gar verschwunden? Doch lässt euch das merkwürdige Gefühl
+        nicht los, dass ihr eigentlich die ganze Zeit beobachtet werdet...
         <br />
         <br />
-        hier kommt ihr wieder ins Spiel! Die Stadt benötigt eure Hilfe. Der
-        giftige Nebel macht ein normales Leben, so wie wir es kennen, beinahe
-        unmöglich. Es gibt eine Sage über ein geheimnisvolles Heilmittel, gegen
-        die Krankheit, die der Odem verbreitet.
+        Als ihr euch weiter umschaut, entdeckt ihr eine kleine Holztafel mit
+        einer Inschrift. Darauf steht geschrieben:
+        <br />
+        “Nur diejenigen, die vom Baum der Weisheit anerkannt werden, ist es
+        gewährt, das Volk der Elfen entgegenzutreten. Nur mit reinem Herzen wird
+        ein Blick in die Schönheit der Flora das Geheimnis lüften.”
+        <br />
+        Kann es sein, dass sich die Elfen vor euch verstecken? Nur ein genauerer
+        Blick in die Natur kann euch dabei helfen sie zu finden. Vier Buchstaben
+        sind jeweils in diesen Stereogrammen verborgen, die das Lösungswort (in
+        Großbuchstaben!) bilden. Schafft ihr es, den Durchblick zu haben?
         <br />
         <br />
-        Suche die ortsansässigen Heiler auf! Sie verkaufen allerlei Wundermittel
-        und hüten altes Wissen, dass der Allgemeinheit nicht zugängig ist.
+        <img
+          src="img/2_21.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
         <br />
+        <img
+          src="img/2_22.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
         <br />
-        Den kundigen Heiler findet ihr nicht in einer städtischen Heilerstube.
+        <img
+          src="img/2_23.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
         <br />
-        Weder mit König noch Adel hat er viel zu tun.
+        <img
+          src="img/2_24.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
         <br />
-        Die Quersumme der Hausnummer seiner Heilerstube ist größer als 10.
-        <br />
-        <br />
-        Findet den richtigen Heiler heraus und nennt uns den Namen, seines
-        Ladengeschäfts.
+        <div
+          style={{
+            fontStyle: "italic",
+          }}
+        >
+          (Hinweis: Falls ihr nicht weiterkommt, hilft vielleicht eine kleine{" "}
+          {/* Funktioniert das? Ich hab ka... ggf nen "Tip" style oder atom oder whatever ? */}
+          Recherche im Internet über “Stereogramme”)
+        </div>
       </Riddle>
       <Riddle
         index={3}
         chapter={2}
-        heading="Des Schlosses Code"
-        question="Wie lautet der Code?"
-        answer="338846"
+        heading="Ein wirklich großer Baum"
+        question="Wie lautet das Lösungswort?"
+        answer="Feldahorn"
       >
-        „Leider gibt es noch kein Heilmittel gegen des Drachens Gift.“, sagt der
-        Heiler, „Aber ihr könntet uns etwas Zeit verschaffen“ raunte er euch zu
-        während er euch etwas zusteckt. „Damit solltet ihr Smaragd zumindest
-        erstmal beruhigen können. Ich würde es ja selbst machen, aber ich bin
-        wohl nicht clever genug für das Rätsel!“
-        <Divider />
-        Des Schlosses Zahlen müsst Ihr knacken,
-        <br />
-        indem Ihr löst die folgende Fragen.
-        <br />
-        Als Wegweiser dienen Euch die Bilder,
-        <br />
-        welche meist zeigen auf diverse Schilder.
+        Ihr nehmt aufmerksam die Natur um euch wahr. Ihr bemerkt, wie sich
+        langsam kleine Silhouetten im ganzen Dorf bilden und um euch
+        herumfliegen. Ihr hört leises Getuschel und Gekicher im Hintergrund. Und
+        siehe da, plötzlich erscheint eine Elfe vor euch! Sie spricht zu euch:
+        “Liebe Reisende, ihr habt uns gefunden! Der Baum der Weisheit hat euch
+        die Erlaubnis erteilt, unser Dorf betreten zu dürfen. Wir wissen bereits
+        um die Lage Bescheid und warum ihr hier seid. Der Älteste der
+        Fischmenschen hat uns die Botschaft zukommen lassen, dass ihr die
+        Auserwählten seid, die die Kräfte der vier heiligen Artefakte
+        wiederherstellen werden. Und dafür sind wir euch zutiefst dankbar!”
         <br />
         <br />
-        Ein Hinweis für Euch gleich jetzt vorab:
+        Die Elfen bitten euch, ihnen zum riesigen Baum im Zentrum des Dorfes zu
+        folgen. Eine der Elfen erklärt: “Das ist der Baum der Weisheit. Er
+        schenkt der Natur, den ganzen Pflanzen auf der gesamten Insel Leben und
+        Vitalität. Doch seit die Artefakte ihre Macht verlieren, wie ihr
+        sicherlich schon wisst, schwindet auch seine Kraft und er kann die
+        wunderschöne Flora auf der Insel nicht mehr mit Lebensenergie versorgen.
+        Vielleicht habt ihr schon gemerkt, dass die Pflanzen und Bäume in den
+        entfernteren Gebieten auf der Insel welk und kraftlos aussehen. Unser
+        Wald hier bleibt vorerst verschont, da er sich direkt in der Nähe des
+        Baums der Weisheit befindet. Aber wer weiß, wie lange der Baum noch
+        seine letzte Kraft aufrecht halten kann? Nur wenn das Artefakt der Erde
+        seine Macht zurückerlangt, kann der Baum gerettet werden.”
         <br />
-        Gesucht wird an jedem Ort nur eine Zahl!
         <br />
-        Ob vorgeschobene null oder vierstellige Uhrzeit,
+        Entschlossen den Elfen zu helfen, schildern sie euch, dass das Artefakt
+        der Erde sich mitten in der Baumkrone des Baums der Weisheit befindet.
+        Doch bevor der Baum euch Einlass zu seiner Krone gewährt, müsst ihr eine
+        kleine Prüfung absolvieren.
         <br />
-        mit etwas Knobeln habt Ihr die richtige Ziffer sehr schnell bereit.
+        Der Baum der Weisheit stellt euch vor einem Rätsel: Ihr seht vor euch
+        Bäume in verschiedenen Größen. Wenn ihr sie nach der Größe sortiert,
+        erhaltet ihr das gesuchte Lösungswort, um die Prüfung zu bestehen.
         <br />
         <br />
-        <br />
-        <br />
-        <Bilderratsel src="img/riddle2_3/1.jpg" i={1}>
-          Am ersten Ort wird nicht geschlummert,
-          <br />
-          Lädt ein zum Platz wo niemand lungert. <br />
-          Bewegung, Spiel und Fertigkeit,
-          <br />
-          lehrt der Verein zu jeder Zeit. <br />
-        </Bilderratsel>
-        <Bilderratsel src="img/riddle2_3/2.jpg" i={2}>
-          Die zweite Zahl weist Euch den Weg, <br />
-          nur bildlich dort, wo ein Baum steht. <br />
-          Zwei Arten hier auf hölzernem Grund, <br />
-          lediglich die letzte Nummer zählt als richtger Fund.
-        </Bilderratsel>
-        <Bilderratsel src="img/riddle2_3/3.jpg" i={3}>
-          Der dritten Stelle Ihr Euch naht, <br />
-          dreht Euch jetzt um 180 Grad. <br />
-          Das grüne Schild zeigt Euch die Lösung an: <br />
-          Wie viele Rollen sind an allen Schuhen dran?
-        </Bilderratsel>
-        <Bilderratsel src="img/riddle2_3/4.jpg" i={4}>
-          Für eine ausgedehnte Rast, <br />
-          habt Ihr am Ort der vierten Ziffer Platz. <br />
-          Schaut in den Humpen tief hinein, <br />
-          die Anzahl der Spiegel wird die Lösung sein.
-        </Bilderratsel>
-        <Bilderratsel src="img/riddle2_3/5.jpg" i={5}>
-          Der fünfte Ort ist immergrün, <br />
-          ob Herbstwind weht ob Bäume blühn. <br />
-          Gesucht wird jetzt der Zeitpunkt gnau
-          <br />
-          an dem am Sonntagnachmittag
-          <br />
-          Die Kinder hier zur vollen Schau <br />
-          dir Bälle springen, fliegen lassen
-          <br />
-          Habt ihr es raus, seid ihr so schlau?
-        </Bilderratsel>
-        <Bilderratsel src="img/riddle2_3/6.jpg" i={6}>
-          Die letzte Zahl ist leicht zu finden <br />
-          Ihr müsst euch dafür gar nicht schinden. <br />
-          Ein silbernes Netz aus Knoten und Waben, <br />
-          die Hälfte der Kugeln wird Euch die Lösung verraten.
-        </Bilderratsel>
+        <img
+          src="img/2_3.png"
+          style={{
+            height: "100%",
+            width: "100%",
+          }}
+        />
       </Riddle>
       <Riddle
         index={4}
         chapter={2}
-        heading="How to tame a dragon"
-        question="Wie viele Smaragde liegen auf dem letzten weißen Feld?"
-        answer="0"
+        heading="Das Artefakt der Erde"
+        question="Screenshots von den erfüllten Aufgaben an uns für das Lösungswort"
+        answer="Te Ao"
       >
-        <img
-          src="img/2_4_map.png"
-          style={{ width: "100%", opacity: 0.8, marginBottom: "3rem" }}
-        ></img>
-        Die Box offenbart euch eine Art Karte, die euch zu Smaragd führt. In der
-        unteren Ecke ist ein Hinweis <br />
+        {/* in maori */}
+        Nachdem ihr die Prüfung des Baums der Weisheit bestanden habt, schießen
+        riesige Äste und Blätter ringsum aus dem Stamm und bilden eine
+        Wendeltreppe nach oben. Das ist ein Zeichen, dass der Baum der Weisheit
+        euch zu seiner Krone einlädt. Ihr lauft die hölzerne Treppe hoch und
+        nach einiger Zeit findet ihr euch in schwindelerregender Höhe wieder.
+        Ihr könnt über den kompletten Wald hinweg auf die Insel blicken. Von der
+        atemberaubenden Aussicht beeindruckt, erklimmt ihr weiter die Treppen,
+        die euch zum Artefakt der Erde führen.
         <br />
-        „Schau hinter die Graue box am Schwarz-Weißen Ort.“
+        <br />
+        Als ihr oben auf der Baumkrone ankommt, erblickt ihr einen steinernen
+        Podest inmitten den des Geflechts der riesigen Äste. Auf diesem Podest
+        liegt ein hölzerner Ring, die in einem leichten Grün glimmert. Das ist
+        das heilige Artefakt der Erde! Ihr geht zum Artefakt und versucht dieses
+        zu berühren. Ähnlich wie beim Artefakt des Wassers, blitzt ein helles
+        Licht auf, diesmal in einem leuchtenden Hellgrün. Es gilt die nächste
+        Aufgabe zu lösen, um die Kraft des Artefakts wieder herzustellen.
+        <br />
+        <br />
+        Damit das Artefakt der Erde wieder zu seiner ursprünglichen Kraft kommt,
+        müsst ihr die folgende Aufgabe lösen: <br />
+        <br />
+        Begebt euch auf die folgende Seite und spielt das Minispiel:{" "}
+        <Link to="/">https://elfragms.itch.io/gravitaze1</Link>
+        <br />
+        <br /> Mithilfe der Leertaste oder einem Mausklick könnt ihr die
+        Gravitation nach oben bzw. unten hin verändern und so den Ball rollen
+        lassen. Euer Ziel besteht darin, den Ball in den jeweiligen Leveln 3, 6
+        und 9 auf die markierte Position zu führen, wie auf den Bilder
+        dargestellt. (Demnach sollt ihr nicht das Ziel in der Mitte ansteuern!)
+        <br />
+        <br /> Schickt uns die jeweiligen Screenshots von den erfüllten Aufgaben
+        und ihr bekommt von uns ein Lösungswort, um euer Abenteuer fortzusetzen.
+        <br />
+        <br /> Hinweis: Ihr könnt im Menü die jeweiligen Levels auswählen,
+        sodass ihr nicht unbedingt die gesamten Levels durchspielen müsst.
+        (Klickt dazu das Pause-Symbol und dann auf das Haus, so gelangt ihr
+        wieder ins Levelauswahl-Menü)
+        <br />
+        <br />
+        <Bilderratsel src="img/2_41.png" i={1}>
+          In Level 3 hier...
+        </Bilderratsel>
+        <Bilderratsel src="img/2_42.png" i={2}>
+          ... dann hier in Level 6...
+        </Bilderratsel>
+        <Bilderratsel src="img/2_43.png" i={3}>
+          und zuletzt in Level 9 hier.
+        </Bilderratsel>
       </Riddle>
-      <Riddle
-        index={5}
-        chapter={2}
-        heading="Schachmatt"
-        question="Wie viele Smaragde liegen auf dem letzten weißen Feld?"
-        answer="0"
-      >
-        Am Ruheort des Drachen angekommen erspart ihr vor Schrecken im Angesicht
-        der mächtigen Kreatur.
-        <br />
-        <br />
-        „Warum sollte ich dich nicht direkt Fressen Winzling?“ fragt euch
-        Smaragd bedrohlich?
-        <br />
-        <br />
-        Ihr, die Ihr viele Geschichten von Drachen kennt, wisst direkt die
-        Lösung! Ihr schlagt dem Drachen vor das er euch ein Rätsel stellen kann
-        und wenn Ihr es löst sie mit euch Tee trinkt.
-        <br />
-        <br />
-        „Wenn ich hier auf das Schachbrett auf das erste schwarze Feld einen
-        Smaragd lege und auf das nächste schwarze Feld zwei Smaragde lege und
-        auf das dritte Schwarze Feld drei Smaragde lege und so weiter.“, sagt
-        sie während Sie einen Smaragde auf die Felder legt. „Wie viele Smaragde
-        liegen auf den letzten weißen Feld?“
-        <br />
-        <br />
-      </Riddle>
-      <Riddle chapter={2} index={6} heading="Schachmatt" epilog>
-        Smaragd hält sich an Ihr Wort und ihr trinkt zusammen eine Tasse vom
-        wundervoll einschläfernden Tee während sie mit euch noch eine Partie
-        ordinäres Schach spielt.
+      <Riddle chapter={2} index={6} epilog>
+        Glückwunsch bis hier hin!
         <br />
         <br /> Das nächste Woche offenbart sich euch am
         <br />
         <br />
-        <H4>27.07.2020</H4>
+        <H4>09.08.2021</H4>
       </Riddle>
       <BackToHome>
         <Link to="/">Zurück zur Hauptseite</Link>
