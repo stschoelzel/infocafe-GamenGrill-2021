@@ -236,9 +236,7 @@ export const Woche2 = () => {
         <br />
         <H4>09.08.2021</H4>
       </Riddle>
-      <BackToHome>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </BackToHome>
+      <BackToHome />
     </Parchment>
   );
 };

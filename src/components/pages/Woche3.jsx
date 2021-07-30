@@ -156,9 +156,7 @@ export const Woche3 = () => {
         <H4>03.08.2020</H4>
         Kehrt dann zum letzten Ort eures Abenteuers zurück um fortzufahren!
       </Riddle>
-      <BackToHome>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </BackToHome>
+      <BackToHome />
     </Parchment>
   );
 };

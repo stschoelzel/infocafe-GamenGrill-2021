@@ -425,9 +425,7 @@ export const Woche4 = () => {
           <H4>Zur Preisverleihung</H4>
         </a>
       </Riddle>
-      <BackToHome>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </BackToHome>
+      <BackToHome />
     </Parchment>
   );
 };
