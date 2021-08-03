@@ -29,6 +29,22 @@ export const Woche2 = () => {
         question="Wie lautet der Zahlencode?"
         answer="2051"
       >
+        Von der Siedlung aus wandert ihr am Fluss entlang zu eurem nächsten
+        Ziel. Nach einer Weile seht ihr in der Ferne einen riesigen Wald.
+        Inmitten des Waldes steht ein einzelner gigantischer Baum, viel höher
+        und riesiger als die ganzen Bäume drumherum. Dort muss sich das Dorf der
+        Elfen befinden, von dem der Älteste der Fischmenschen gesprochen hat.
+        Voller Entschlossenheit macht ihr euch auf dem Weg zum Waldanfang.
+        <br />
+        <br />
+        Als ihr euch in den Wald begebt, bemerkt ihr, dass die Wege beschildert
+        sind. Doch als ihr versucht, den Wegweisern zu folgen, kommt ihr nicht
+        wirklich weit voran. Egal welchen Weg ihr einschlägt, es sieht überall
+        gleich aus und ihr bekommt langsam das Gefühl, euch in einem Labyrinth
+        verirrt zu haben. Die Schilder zeigen in die verschiedensten Richtungen
+        und scheinen zu keinem konkreten Ziel zu führen - zumindest auf den
+        ersten Blick…
+        <br />
         <img
           src="img/2_1.png"
           style={{
@@ -36,6 +52,7 @@ export const Woche2 = () => {
             width: "100%",
           }}
         />
+        <br />
         Beim genaueren Hinschauen bemerkt ihr ein Schema. Die Wegweiser müssen
         nämlich auf einer bestimmten Art und Weise gelesen werden. Mit einem
         vierstelligen Zahlencode kommt ihr dann aus diesem waldigen Labyrinth
