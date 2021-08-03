@@ -228,7 +228,7 @@ export const Woche2 = () => {
           und zuletzt in Level 9 hier.
         </Bilderratsel>
       </Riddle>
-      <Riddle chapter={2} index={6} epilog>
+      <Riddle chapter={2} index={5} epilog>
         Glückwunsch bis hier hin! Nachdem ihr die Kraft des Artefakts wieder
         hergestellt habt, beginnt der Baum der Weisheit in einem satten Hellgrün
         zu leuchten. Dann stößt er einen Lichtpuls in den Erdboden aus, der sich
