@@ -229,9 +229,30 @@ export const Woche2 = () => {
         </Bilderratsel>
       </Riddle>
       <Riddle chapter={2} index={6} epilog>
-        Glückwunsch bis hier hin!
+        Glückwunsch bis hier hin! Nachdem ihr die Kraft des Artefakts wieder
+        hergestellt habt, beginnt der Baum der Weisheit in einem satten Hellgrün
+        zu leuchten. Dann stößt er einen Lichtpuls in den Erdboden aus, der sich
+        über die gesamte Insel erstreckt. Euch umhüllt ein gleißendes Licht, der
+        euch zurück auf dem Boden zum Dorf der Elfen teleportiert. Ihr werdet
+        von jubelnden und tanzenden Elfen empfangen: “Hurra! Hurra! Unser Dorf
+        ist gerettet!”
         <br />
-        <br /> Das nächste Woche offenbart sich euch am
+        <br />
+        Eine der Elfen spricht zu euch: “Liebe Reisende, vielen vielen Dank für
+        eure Hilfe! Ihr habt die Kraft des Artefakts der Erde und somit die
+        Macht von zwei der vier heiligen Artefakte wieder hergestellt! Ihr habt
+        sicherlich, als ihr oben auf den Baum ward, den riesigen Vulkan
+        innerhalb der Gebirge in der Ferne gesehen. Das nächste Artefakt wartet
+        dort auf euch. Die Zwerge, die in den Gebirgen leben, werden euch
+        sicherlich weiterhelfen können.”
+        <br />
+        <br />
+        Nun wisst ihr, wo euer nächstes Ziel ist. Die Elfen begleiten euch aus
+        dem Wald heraus und zeigen euch, auf welchem Weg ihr am besten zu den
+        Gebirgen hin kommt. So geht eure Reise weiter zum Artefakt des Feuer.
+        <br />
+        <br />
+        Fortsetzung folgt...
         <br />
         <br />
         <H4>09.08.2021</H4>
