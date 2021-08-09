@@ -194,7 +194,7 @@ export const Woche2 = () => {
         question="Screenshots von den erfüllten Aufgaben an uns für das Lösungswort"
         answer="Te Ao"
       >
-        {/* in maori */}
+        {/* Erde in maori */}
         Nachdem ihr die Prüfung des Baums der Weisheit bestanden habt, schießen
         riesige Äste und Blätter ringsum aus dem Stamm und bilden eine
         Wendeltreppe nach oben. Das ist ein Zeichen, dass der Baum der Weisheit
