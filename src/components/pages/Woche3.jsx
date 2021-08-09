@@ -14,17 +14,14 @@ export const Woche3 = () => {
     <Parchment>
       <H1>Woche 3 - Feuer</H1>
 
-      <Map src="img/fire.png" />
+      <img
+        src="img/fire.png"
+        style={{
+          height: "100%",
+          width: "100%",
+        }}
+      />
       <Riddle index={1} chapter={3} prolog>
-        <img
-          src="img/schachmatt.png"
-          style={{
-            width: "calc(6rem + 100%)",
-            marginLeft: "-3rem",
-            maxWidth: "calc(6rem + 100%)",
-            paddingBottom: "3rem",
-          }}
-        />
         Ihr lauft über die atemberaubenden Landschaften der Insel Richtung
         Gebirge. Als ihr den majestätischen Felsformationen näherkommt, erblickt
         ihr zwischen dem Gebirge den Vulkan, der graue Rauchschwaden in die Höhe
@@ -46,7 +43,7 @@ export const Woche3 = () => {
         chapter={3}
         heading="Am Fuß der Berge"
         question="Wie lautet das Passwort?"
-        choices={"63"}
+        answer={"63"}
       >
         Gemeinsam startet ihr eure Wanderung durch die Gebirge. Der Zwerg zückt
         eine Wegbeschreibung raus, der euch durch die Berge zur Zwergenstadt
