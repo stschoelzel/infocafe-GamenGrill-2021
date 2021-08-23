@@ -4,10 +4,10 @@
 // bsp: Woche 1 - 5 Rätsel
 //      Woche 2 - 4 Rätsel ...
 const sa2020 = { name: "sa2020", chapters: [4, 5, 2, 9] };
-const sa2021 = { name: "sa2021", chapters: [4, 5, 2, 9] };
+const sa2021 = { name: "sa2021", chapters: [5, 5, 5, 5, 3] };
 
 // Freigeschaltete Woche
-export const unlocked = new Date().getDate() > 2 ? 4 : 3;
+export const unlocked = new Date().getDate() > 2 ? 5 : 3;
 // Aktuelle Config
 export const config = sa2021;
 
